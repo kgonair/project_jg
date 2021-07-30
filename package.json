@@ -1,0 +1,24 @@
+{
+  "name": "project_jg",
+  "version": "1.0.0",
+  "description": "Nucamp Fullstack Project Collaboration by Jessica Law and George Omulo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kgonair/project_jg.git"
+  },
+  "author": "Jessica and George",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kgonair/project_jg/issues"
+  },
+  "homepage": "https://github.com/kgonair/project_jg#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
