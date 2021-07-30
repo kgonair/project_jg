@@ -2,7 +2,7 @@ h1{
     color:#b13838;
 }
 
-h1, h2, h3{
+h1, h2, h3, h5{
     font-family: "Lobster", cursive;
 
 }
@@ -11,10 +11,16 @@ h1, h2, h3{
     background-color: #f4bc6b!important;
 }
 
+.btn-link {
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+}
+
 
 
 .navbar-dark .navbar-nav .nav-link {
-    color: rgb(177 56 56);
+    color: white;
 }
 
 nav{
@@ -58,4 +64,16 @@ padding: 0;
     background-color: #f4bc6b!important;
     color: white;
     margin: 0;
+}
+
+
+.site-footer{
+    background: #b13838;
+    color: white;
+}
+
+#toggleMobileMenu{
+    background: #b13838;
+    border-radius: 12px;
+    font-family: 'Lobster';
 }
