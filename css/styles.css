@@ -17,6 +17,9 @@ h1, h2, h3, h5{
     text-decoration: none;
 }
 
+.navbar {
+    background-color: #901CAD;
+}
 
 
 .navbar-dark .navbar-nav .nav-link {
@@ -70,10 +73,4 @@ padding: 0;
 .site-footer{
     background: #b13838;
     color: white;
-}
-
-#toggleMobileMenu{
-    background: #b13838;
-    border-radius: 12px;
-    font-family: 'Lobster';
 }
