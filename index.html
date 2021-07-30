@@ -4,61 +4,63 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>What's Cooking?</title>
+
+<!-- Additional CSS must be placed after Bootstrap CSS -->
 <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
 <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
 <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-<link rel="stylesheet" href="css/styles.css"/>
 
+<link rel="stylesheet" href="css/styles.css"/>
+<title>What's Cooking?</title>
 </head>
 
 <body>
 
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
+  <!-- <div class="container">
+    <div class="row">
+        <div class="col-4 col-sm-3 col-md-2 align-self-center">
+            <img src="img/logo.png" class="img-fluid" />
         </div>
-      </nav>
-    <!-- <div class="search">
-        <input type="search" placeholder="search">
+        <div class="col-sm">
+            <h1>NuCamp</h1>
+            <h2>a better way to camp</h2>
+        </div>
+        <div class="col-sm col-md-4 col-xl-2">
+            <a class="btn btn-info" href="#reserveForm" role="button">Reserve Campsite</a>
+        </div>
     </div>
-    <nav>
-    <a href="#" class="logo"><img src="#" alt="Logo"/></a>
-    
-        <ul>
-            <li>Home</li>
-            <li>Contact</li>
-            <li>About</li>
-        </ul>
-    </nav> -->
+</div> -->
 </header>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#"><img src="img/logo.png" class="img-fluid" /></a>
+    <div class="col-sm">
+      <h1>What's Cooking?</h1>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Ingredients</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
  <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
