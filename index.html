@@ -11,7 +11,8 @@
     <!-- Additional CSS must be placed after Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" /> -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css" />
     <title>What's Cooking?</title>
 </head>
@@ -21,10 +22,10 @@
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-lg col-sm-3 col-md-2  text-center mx-auto">
-                    <img src="img/logo.png" class="img-fluid">
+                <div class="col-sm text-center mx-auto">
+                    <img src="img/logo.svg" class="img-fluid" width="100px" height="100px">
                     <h1>What's Cooking?</h1>
-                    <h2>Find a Recipe for you!</h2>
+                    <h2>Find a Recipe best for you</h2>
                 </div>
             </div>
         </div>
@@ -41,9 +42,9 @@
                     <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Ingredients</a></li>
                     <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i> About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>                </ul>
-                <span class="navbar-text ml-auto">
-                    <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"> Cart</i>
-                </span>
+                <div class="navbar-text ml-auto ">
+                    <i class="fa fa-shopping-cart fa-sm" aria-hidden="true"></i> Cart
+                </div>
             </div>
         </div>
     </nav>
@@ -87,13 +88,96 @@
         </a>
       </div>
 
-
- <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-
-    <!-- build:js js/main.js -->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-</body>
-
+      <!-- <div class="container">
+        <div class ="row row-content">
+          <div class ="col">
+            <div class="accordion" id="accordion">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Select your ingredients
+                    </button>
+                  </h2>
+                </div>
+      
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      View recipes
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Add recipe to cart
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+      </div> -->
+      
+      
+      
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row">             
+            <div class="col-12 text-center">
+                <!-- col-4 col-sm-2 offset-1 -->
+              <h5>Links</h5>
+                <ul class="list-inline">
+                  <li class="list-inline-item"><a href="#"><span>Home</span></a></li>
+                  <li class="list-inline-item"><a href="ingredients.html"><span>Ingredients</span></a></li>
+                  <li class="list-inline-item"><a href="about.html"><span>About</span></a></li>
+                  <li class="list-inline-item"><a href="contact.html"><span>Contact</span></a></li>
+                </ul>
+            </div>
+          </div>
+      
+      
+          <div class="row">    
+            <div class="col-12 text-center">
+          <!-- col-6 col-sm-5 text-right  -->
+              <h5>Social</h5>
+                <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+      <!-- <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;" href="#" role="button"><i class="fab fa-twitter"></i></a>
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;" href="#" role="button"><i class="fab fa-instagram"></i></a>  -->
+      </footer>
+      
+       <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+          <!-- build:js js/main.js -->
+          <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+          <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+          <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
+      
 </html>

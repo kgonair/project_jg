@@ -3,8 +3,11 @@ h1{
 }
 
 h1, h2, h3, h5{
-    font-family: "Lobster", cursive;
+        font-family: 'Pacifico', cursive;
+}
 
+.navbar-dark .navbar-text {
+    color: white;
 }
 
 .bg-dark {
@@ -70,6 +73,11 @@ padding: 0;
 .site-footer{
     background: #b13838;
     color: white;
+    padding-top:30px;
+}
+
+.fa-shopping-cart{
+color:white;
 }
 
 /* Large Desktop Screens */
