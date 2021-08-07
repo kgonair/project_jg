@@ -1,8 +1,8 @@
-h1{
+h1, h4{
     color:#b13838;
 }
 
-h1, h2, h3, h5{
+h1, h2, h3, h4, h5{
         font-family: 'Pacifico', cursive;
 }
 
@@ -53,7 +53,6 @@ padding: 0;
 }
 
 
-
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
 }
@@ -69,15 +68,47 @@ padding: 0;
     color: white;
     margin: 0;
 }
+.jumbotron h2{
+    color: #503457;
+}
+
 
 .site-footer{
-    background: #b13838;
+    /* background: #b13838; */
+    background-image: linear-gradient(#b13838, #f4bc6b);
     color: white;
     padding-top:30px;
+    padding-bottom:30px;
 }
 
 .fa-shopping-cart{
 color:white;
+}
+
+.card-body h4{
+    font-family: 'Pacifico', cursive;
+    font-weight: 300;
+    color: #B13838;
+}
+
+.img-card{
+    border: 1px solid #ddd;
+ width: 200px;
+ height: 200px;
+ object-fit:cover;
+ border-radius: 5%;
+}
+
+.img-thumbnail {
+ border: 1px solid #ddd;
+ border-radius: 4px;
+ padding: 5px;
+ width: 150px;
+}
+
+.about, .contact, .ingredients{
+    padding-top: 6%;
+    padding-bottom:6%;
 }
 
 /* Large Desktop Screens */
