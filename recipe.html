@@ -39,7 +39,7 @@
 
 <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
     <div class="container">
-        <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="30" /></a>
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="30" width="30" /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#wCNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -49,97 +49,71 @@
               <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-info fa-lg"></span> Ingredients</a></li>
               <li class="nav-item"><a class="nav-link" href="about.html"><span class="fa fa-list fa-lg"></span> About</a></li>
               <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
-          </ul>
-       </div>
+           </ul>
+                 <!-- Button trigger modal -->
+            <button type="button" class="btn btn-success ml-auto" data-toggle="modal" data-target="#cartModal">
+              <span class="fa fa-shopping-cart fa-lg"></span>
+            </button>
+      </div>
     </div>
   </nav>
 
 
+
+
 <div class="container">
-    <div class="row row-cols-1 row-cols-md-3">
-        <div class="col mb-4">
-        <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-        </div>
-        </div>
-        <div class="col mb-4">
-        <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a short card.</p>
-            </div>
-        </div>
-        </div>
-        <div class="col mb-4">
-        <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-            </div>
-        </div>
-        </div>
-        <div class="col mb-4">
-        <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-        </div>
-        </div>
-    </div>
+  <div class ="row row-content">
+    <div class ="col">
+      <div class="accordion" id="accordion">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Select your ingredients
+              </button>
+            </h2>
+          </div>
 
-    <div class="container">
-        <div class="row row-content">
-            <h2><p class="text-right text-center">Find the recipe for you!</p></h2>
-        </div>
-    </div>
-
-    <div class="row row-cols-1 row-cols-md-3">
-        <div class="col mb-4">
-        <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
             </div>
+          </div>
         </div>
-        </div>
-        <div class="col mb-4">
-        <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                View recipes
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
             <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a short card.</p>
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
             </div>
+          </div>
         </div>
-        </div>
-        <div class="col mb-4">
-        <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Add recipe to cart
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
             <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
             </div>
+          </div>
         </div>
-        </div>
-        <div class="col mb-4">
-        <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-        </div>
-        </div>
-    </div>
+      </div>
+  </div>
+  </div>
 </div>
+
+
 
 
     <footer class="site-footer">
@@ -172,3 +146,12 @@
       <!-- <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;" href="#" role="button"><i class="fab fa-twitter"></i></a>
       <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;" href="#" role="button"><i class="fab fa-instagram"></i></a>  -->
     </footer>
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+       <!-- build:js js/main.js -->
+       <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+       <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+       <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+   </body>
+   
+   </html>
